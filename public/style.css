@@ -94,13 +94,14 @@ form .google-login:visited{
 }
 
 form .btn{
-    width: 20%;
+    width: 32%;
     align-self: center;
     background-color: darkred;
     margin: 20px 0;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
+    text-align: center;
 }
 
 form .register_button{

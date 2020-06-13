@@ -11,7 +11,7 @@ html,body{
     background-color: black;
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-family: 'Odibee Sans', cursive;
 }
@@ -22,8 +22,6 @@ header{
     color: white;
     text-align: center;
     border-bottom: 4px solid white;
-    position: fixed;
-    top: 0;
     padding: 20px 0;
 }
 
@@ -44,7 +42,6 @@ header .thumbnail_image{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 15px 0 60px 0;
 }
 
 .control_buttons a{
