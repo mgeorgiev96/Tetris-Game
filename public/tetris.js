@@ -125,7 +125,7 @@ function merge(arena,player){
 let lastTime = Date.now()
 function dropCounter (time=0){
     let counter = Date.now() - lastTime
-    if(counter > 700){
+    if(counter > 500){
         piecePos.y ++ 
         lastTime = Date.now()
 
